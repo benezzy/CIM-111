@@ -49,3 +49,11 @@ address{
   column-gap: 50%;
   border: solid;
 }
+.textChange{
+  color: MidnightBlue;
+  background-color: LightGoldenrodYellow;
+}
+.second-class{
+  color: Chocolate;
+  background-color: MistyRose;
+}
