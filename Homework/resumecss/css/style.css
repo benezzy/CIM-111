@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+body{
+  background-color: green;
+  font-family: 'Fjalla One', sans-serif;
+}
+a{
+  text-decoration: none;
+  color: red;
+  font-weight: bolder;
+}
+a:hover{
+  color: orange;
+  text-decoration: underline;
+}
+h1{
+  font-family: 'Abril Fatface', cursive;
+}
+h2{
+  font-family: 'Abril Fatface', cursive;
+}
+h3{
+  font-family: 'Abril Fatface', cursive;
+}
+address{
+  background-color: purple;
+}
+#first-id{
+  background-color: orange;
+}
+#second-id{
+  background-color: red;
+  color: blue;
+}
+#third-id{
+  color: red;
+}
+#fourth-id{
+  background-color: black;
+  color: white;
+}
+#fifth-id{
+  font-weight: 900;
+}
+#new-property-experimentation{
+  table-layout: fixed;
+  width: 250px;
+  column-gap: 50%;
+  border: solid;
+}

@@ -8,148 +8,92 @@
 
   <meta charset="uft-8">
   <meta name="author" content="Ben Ezzy">
-  <meta name="description" content="This is a resume for Ben Ezzy. It contains information relating to his educational background, wwork experience, extracurricular involvement, and other professional skills that would be applicable in future positions.">
-
-  <style>
-    /*how to add a comment in the CSS style tag (this only works here.)*/
-    body{
-      background-color: green;
-      background-color: #333333;
-      background-color: rgb(0,200,120);
-      font-family: sans-serif;
-    }
-    h1{
-      background-color: orange;
-      color: blue;
-    }
-    h2{
-      background-color: orange;
-      color: blue;
-    }
-    a{
-      text-decoration: none;
-      color: purple;
-      font-weight: bolder;
-    }
-    a:hover{
-      color: blue;
-      text-decoration: underline;
-    }
-    a:visited{
-      color: red;
-    }
-    #name{
-      text-align: center;
-      background-color: cyan;
-    }
-    /*This allows you to isolate a particular tag with that name. Don't forget to name it below with attribute ID="" in the tag below.*/
-    ul li{
-      line-height: 30px;
-      text-indent: 20px;
-      list-style: none;
-    }
-    /*This says, first find all the UL tags, then find all the LIs in those, and apply this style. So all your lst elements on unrodered lists would be affected, while your LIs on the OLs would not. If you specify a tag/ID then a space, then another element, it will look for that one and then the other one within that.*/
-
-    .links{
-      color: cyan;
-    }
-    /*Question: how to set a class/use it correctly????*/
-
-  </style>
+  <meta name="description" content="This is a resume for Ben Ezzy. It contains information relating to his education, work experience, extracurricular involvement, and other professional skills that would be applicable in future positions.">
 
   <!--The real reason I am making this resume is to practice using HTML, Atom, and GitHub.-->
+
+  <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
 
-<header>
-  <h1 id="name">Ben Ezzy</h1>
-</header>
-<main>
+  <h1>Ben Ezzy</h1>
+
   <br>
 
   <img src="images/Me.jpg" height="300">
-<section>
-  <h2>Education</h2>
+
+  <h2 id="first-id">Education</h2>
 
     <ul>
-      <li>University of Miami, Coral Gables, FL</li>
+      <li id="second-id">University of Miami, Coral Gables, FL</li>
       <li>Broadcast Journalism Major, Sport Administration Minor</li>
       <li>Degree Expected: May, 2020</li>
       <li>Current GPA: 4.0</li>
     </ul>
-</section>
-<section>
+
   <h2>Work Experience</h2>
 
   <b>Production Editor, Newsroom Intern, Reporter at WAGM-TV</b>
   <ul>
-    <li><i>Summer 2016, Summer 2017, Summer 2018</i></li>
+    <li><i id="third-id">Summer 2016, Summer 2017, Summer 2018</i></li>
     <li>Developed television commercials, including content strategy, script development,
 production assistance, film editing, voice-over, and post-production.</li>
     <li>Developed original news content for broadcast and website, including package stories,
 interviews, and articles.</li>
   </ul>
 
-  <b>Intramural Supervisor, Official at Patti and Allan Herbert Wellness Center</b>
+  <b id="new-property-experimentation-2">Intramural Supervisor, Official at Patti and Allan Herbert Wellness Center</b>
   <ul>
     <li><i>Fall 2016 - Present</i></li>
     <li>Supervised and officiated a range of intramural sports, including flag football, soccer, basketball, volleyball, and soccer.</li>
     <li>Trained, scheduled, and monitored the progress of all officials.</li>
     <li>Worked to attract new participants to the program.</li>
   </ul>
-</section>
-<section>
-  <h2>Extracurricular Involvement</h2>
+
+  <h2 id="fourth-id">Extracurricular Involvement</h2>
   <ul>
     <li>Executive Producer, UMTV NewsBreak</li>
     <li>Director, UMTV NewsVision</li>
     <li>Associate Producer, UMTV SportsDesk</li>
     <li>Special Events Chair, President's 100</li>
   </ul>
-</section>
-<section>
+
   <h3>Some of my work:</h3>
   <a href="https://www.youtube.com/watch?v=aZUAfEWxdX0">Footprints</a><br>---This is a 20-minute documentary I produced about the elusive Florida Skunk Ape (bigfoot of the Everglades).<br>
   <br>
   <a href="https://www.wagmtv.com/content/sports/High-school-students-help-restore-Caribou-basketball-court-486504611.html">High School Students Restore Local Basketball Court</a><br>---This is one of my news stories from Summer 2018 at WAGM-TV in Presque Isle, Maine.<br>
-</section>
-<section>
+
   <h3>Other Skills/Certifications:</h3>
-  <table>
+  <table id="new-property-experimentation">
     <tr>
       <th>Item</th>
       <th>Yes/No</th>
     </tr>
     <tr>
-      <td>Adobe Premiere CC18...</td>
+      <td>Adobe Premiere CC18</td>
       <td>YES</td>
     </tr>
     <tr>
-      <td>Microsoft Office............</td>
+      <td>Microsoft Office</td>
       <td>YES</td>
     </tr>
     <tr>
-      <td>CPR/AED Certified.......</td>
+      <td>CPR/AED Certified</td>
       <td>YES</td>
     </tr>
     <tr>
-      <td>First Aid Certified.........</td>
-      <td>YES</td>
+      <td>First Aid Certified</td>
+      <td id="fifth-id">YES</td>
     </tr>
   </table>
 <br>
-</section>
-</main>
-<footer>
-
   <h3>Personal Information:</h3>
   <address>
     5100 Brunson Drive<br>Coral Gables, FL, 33146<br>
     207-521-4802 <!--This isn't my real phone number.-->
   </address>
-</footer>
 
 </body>
 
