@@ -1,0 +1,18 @@
+#span-tag{
+  color: red;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+#fontChange{
+  font-family: cursive;
+}
+.backgroundChange{
+  background-color: Yellow;
+}
+#box{
+  background-color: LightGoldenrodYellow;
+  width: 280px;
+  height: 280px;
+  padding: 10px;
+  text-align: center;
+}

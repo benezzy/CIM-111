@@ -26,6 +26,9 @@ h3{
 address{
   background-color: purple;
 }
+b{
+  background-color: cyan;
+}
 #first-id{
   background-color: orange;
 }
