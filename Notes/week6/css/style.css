@@ -14,5 +14,87 @@
   width: 280px;
   height: 280px;
   padding: 10px;
+  padding-top: 5px;
   text-align: center;
+  border-width: 6px;
+  border-style: dashed;
+  border-color: MidnightBlue;
+  border: solid MidnightBlue 10px;
+  margin: 50px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin: 0 auto;
+}
+#picture{
+  background-color: LightGoldenrodYellow;
+  width: 280px;
+  height: 280px;
+  padding: 10px;
+  padding-top: 5px;
+  text-align: center;
+  border-width: 6px;
+  border-style: dashed;
+  border-color: MidnightBlue;
+  border: solid MidnightBlue 10px;
+  margin: 50px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin: 0 auto;
+}
+/*The margin 0 auto trick only works if there is a width dimension.*/
+
+
+
+header{
+  background-color: DarkTurquoise;
+  width: 960px;
+  height: 150px;
+  margin: 0 auto;
+  margin-top: -23px;
+}
+
+main{
+  background-color: LightSteelBlue;
+  width: 960px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: -20px;
+}
+
+footer{
+  background-color: Maroon;
+  width: 960px;
+  height: 50px;
+  color: ivory;
+  margin: 0 auto;
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+
+nav{
+  background-color: Bisque;
+  width: 400px;
+  margin: 0 auto;
+}
+
+nav ul{
+
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  /*In-line block allows each of these elements to behave like mini-boxes (or images) and exist together on the same line.*/
+  margin-right: 15px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+nav ul li a:hover{
+  color: maroon;
+  text-decoration: underline;
 }
