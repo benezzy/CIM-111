@@ -1,0 +1,113 @@
+#span-tag{
+  color: red;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+#fontChange{
+  font-family: cursive;
+}
+.backgroundChange{
+  background-color: Yellow;
+}
+
+
+
+#container1{
+  width: 850px;
+  height: auto;
+  background-color: DarkSeaGreen;
+  margin: 0 auto;
+}
+
+
+#box1{
+  background-color: LightGoldenrodYellow;
+  width: 280px;
+  height: 280px;
+  padding: 10px;
+  padding-top: 5px;
+  text-align: center;
+  border-width: 6px;
+  border: solid MidnightBlue 10px;
+  margin: 20px;
+  display: inline-block;
+
+  /* margin: 0 auto; */
+}
+
+#box2{
+  background-color: LightGoldenrodYellow;
+  width: 400px;
+  height: 300px;
+  padding: 10px;
+  margin: 20px;
+  display: inline-block;
+}
+/*The margin 0 auto trick only works if there is a width dimension.*/
+
+
+
+header{
+  background-color: DarkTurquoise;
+  width: 960px;
+  height: 150px;
+  margin: 0 auto;
+  margin-top: -23px;
+}
+
+main{
+  background-color: LightSteelBlue;
+  width: 960px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: -20px;
+}
+
+footer{
+  background-color: Maroon;
+  width: 960px;
+  height: 50px;
+  color: ivory;
+  margin: 0 auto;
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+
+nav{
+  background-color: Bisque;
+  width: 300px;
+  margin: 0 auto;
+}
+
+nav ul{
+
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  /*In-line block allows each of these elements to behave like mini-boxes (or images) and exist together on the same line.*/
+  margin-right: 15px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+nav ul li a:hover{
+  color: maroon;
+  text-decoration: underline;
+}
+
+
+
+.columns{
+  width: 180px;
+  height: 280px;
+  background-color: Firebrick;
+  display: inline-block;
+  margin-right: 13px;
+  margin-left: 4px;
+}
