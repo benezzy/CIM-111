@@ -1,9 +1,9 @@
 header{
-  background-color: DarkTurquoise;
+  background-color: MidnightBlue;
   width: 80%;
   height: 150px;
   margin: 0 auto;
-  margin-top: -23px;
+  margin-top: -10px;
 }
 
 main{
@@ -15,17 +15,15 @@ main{
 }
 
 footer{
-  background-color: Maroon;
+  background-color: MidnightBlue;
   width: 80%;
-  height: 50px;
-  color: ivory;
+  height: auto;
   margin: 0 auto;
-  margin-top: -20px;
-  margin-bottom: -20px;
+  margin-top: -10px;
 }
 
 nav{
-  background-color: Bisque;
+  background-color: LightGoldenrodYellow;
   width: 300px;
   margin: 0 auto;
 }
@@ -37,7 +35,6 @@ nav ul{
 nav ul li{
   list-style: none;
   display: inline-block;
-  /*In-line block allows each of these elements to behave like mini-boxes (or images) and exist together on the same line.*/
   margin-right: 15px;
 }
 
@@ -50,4 +47,46 @@ nav ul li a{
 nav ul li a:hover{
   color: maroon;
   text-decoration: underline;
+}
+
+#container1{
+  width: 75%;
+  height: auto;
+  background-color: LightSteelBlue;
+  margin: 0 auto;
+  vertical-align: top;
+}
+
+#info{
+  background-color: LightGoldenrodYellow;
+  width: 40%;
+  padding: 3%;
+  text-align: center;
+  border: solid MidnightBlue 3px;
+  display: inline-block;
+  margin: 0 auto;
+  margin-left: 5%;
+  vertical-align: top;
+}
+#picture{
+  background-color: LightGoldenrodYellow;
+  width: 30%;
+  padding: 5%;
+  text-align: center;
+  border: solid MidnightBlue 3px;
+  margin-left: 20px;
+  display: inline-block;
+  margin: 0 auto;
+  vertical-align: top;
+}
+
+#thanks{
+  background-color: LightGoldenrodYellow;
+  width: 30%;
+  text-align: center;
+  border: solid MidnightBlue 3px;
+  display: inline-block;
+  margin: 0 auto;
+  margin-left: 10px;
+  vertical-align: top;
 }
