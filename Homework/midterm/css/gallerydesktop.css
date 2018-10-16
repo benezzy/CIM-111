@@ -1,0 +1,103 @@
+header{
+  background-color: MidnightBlue;
+  width: 80%;
+  height: 150px;
+  margin: 0 auto;
+  margin-top: -10px;
+}
+
+main{
+  background-color: LightSteelBlue;
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: -20px;
+}
+
+footer{
+  background-color: MidnightBlue;
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: -10px;
+}
+
+nav{
+  background-color: LightGoldenrodYellow;
+  width: 300px;
+  margin: 0 auto;
+}
+
+nav ul{
+
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+nav ul li a:hover{
+  color: maroon;
+  text-decoration: underline;
+}
+
+#thanks{
+  background-color: LightGoldenrodYellow;
+  width: 30%;
+  text-align: center;
+  border: solid MidnightBlue 3px;
+  display: inline-block;
+  margin: 0 auto;
+  margin-left: 10px;
+  vertical-align: top;
+}
+
+#grid1{
+  display: grid;
+  grid-template-areas: "col1 col2";
+  grid-template-rows: 200px;
+  grid-template-columns: 40%;
+}
+#col1{
+  grid-area: col1;
+  background-color: LightSteelBlue;
+  height: 200px;
+}
+#col2{
+  grid-area: col2;
+  background-color: LightSteelBlue;
+  height: 200px;
+}
+#grid2{
+  display: grid;
+  grid-template-areas: "col3 col4 col5";
+  grid-template-rows: 200px;
+  grid-template-columns: 26%;
+}
+#col3{
+  grid-area: col3;
+  background-color: LightSteelBlue;
+  height: 200px;
+}
+#col4{
+  grid-area: col4;
+  background-color: LightSteelBlue;
+  height: 200px;
+}
+#col5{
+  grid-area: col5;
+  background-color: LightSteelBlue;
+  height: 200px;
+}
+
+#scalepic{
+  width: 100%;
+}
