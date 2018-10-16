@@ -1,0 +1,11 @@
+@import "indexdesktop.css";
+
+#info{
+  width: 100%;
+  display: block;
+}
+
+#picture{
+  width: 100%;
+  display: block;
+}
