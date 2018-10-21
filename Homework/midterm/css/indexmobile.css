@@ -1,11 +1,14 @@
 @import "indexdesktop.css";
 
 #info{
-  width: 100%;
+  width: 93%;
   display: block;
+  margin-right: 0px;
+  margin-top: 5px;
 }
 
-#picture{
+#video{
   width: 100%;
   display: block;
+  margin-left: 0px;
 }
