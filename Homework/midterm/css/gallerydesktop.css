@@ -1,30 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Teko');
+
 header{
-  background-color: MidnightBlue;
-  width: 80%;
+  background-color: white;
+  width: 100%;
   height: 150px;
   margin: 0 auto;
-  margin-top: -10px;
+  margin-top: -20px;
 }
 
 main{
-  background-color: LightSteelBlue;
-  width: 80%;
+  background-color: white;
+  width: 100%;
   height: auto;
   margin: 0 auto;
   margin-top: -20px;
 }
 
 footer{
-  background-color: MidnightBlue;
-  width: 80%;
-  height: auto;
+  background-color: white;
+  width: 100%;
+  height: 50px;
   margin: 0 auto;
   margin-top: -10px;
 }
 
 nav{
-  background-color: LightGoldenrodYellow;
-  width: 300px;
+  background-color: black;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -35,69 +38,131 @@ nav ul{
 nav ul li{
   list-style: none;
   display: inline-block;
-  margin-right: 15px;
+  margin: 0 auto;
+  margin-right: 20px;
 }
 
 nav ul li a{
   text-decoration: none;
-  color: black;
+  font-family: 'Amatic SC', cursive;
+  color: white;
   font-size: 20px;
 }
 
 nav ul li a:hover{
-  color: maroon;
+  color: LightGoldenrodYellow;
   text-decoration: underline;
-}
-
-#thanks{
-  background-color: LightGoldenrodYellow;
-  width: 30%;
-  text-align: center;
-  border: solid MidnightBlue 3px;
-  display: inline-block;
-  margin: 0 auto;
-  margin-left: 10px;
-  vertical-align: top;
 }
 
 #grid1{
   display: grid;
-  grid-template-areas: "col1 col2";
-  grid-template-rows: 200px;
-  grid-template-columns: 40%;
+  grid-template-areas: "col1 col2 col3";
+  grid-template-rows: 33.333%;
+  grid-template-columns: 33.333%;
 }
 #col1{
   grid-area: col1;
-  background-color: LightSteelBlue;
-  height: 200px;
+  background-color: white;
+  height: 300px;
 }
 #col2{
   grid-area: col2;
-  background-color: LightSteelBlue;
-  height: 200px;
+  background-color: white;
+  height: 300px;
 }
-#grid2{
-  display: grid;
-  grid-template-areas: "col3 col4 col5";
-  grid-template-rows: 200px;
-  grid-template-columns: 26%;
-}
+
 #col3{
   grid-area: col3;
-  background-color: LightSteelBlue;
-  height: 200px;
+  background-color: LightGoldenrodYellow;
+  padding: 3%;
+  margin-right: 3%;
+  font-family: 'Teko', sans-serif;
+  text-align: center;
+  border: solid black 3px;
+  height: 265px;
 }
+
+#grid2{
+  display: grid;
+  grid-template-areas: "col4 col5 col6";
+  grid-template-rows: 33.333%;
+  grid-template-columns: 33.333%;
+}
+
 #col4{
   grid-area: col4;
-  background-color: LightSteelBlue;
-  height: 200px;
+  background-color: LightGoldenrodYellow;
+  padding: 3%;
+  margin-right: 3%;
+  font-family: 'Teko', sans-serif;
+  text-align: center;
+  border: solid black 3px;
+  height: 265px;
 }
 #col5{
   grid-area: col5;
-  background-color: LightSteelBlue;
-  height: 200px;
+  background-color: white;
+  height: 300px;
 }
 
-#scalepic{
+#col6{
+  grid-area: col6;
+  background-color: white;
+  height: 300px;
+}
+
+#grid3{
+  display: grid;
+  grid-template-areas: "col7 col8 col9";
+  grid-template-rows: 33.333%;
+  grid-template-columns: 33.333%;
+}
+
+#col7{
+  grid-area: col7;
+  background-color: white;
+  height: 300px;
+}
+#col8{
+  grid-area: col8;
+  background-color: white;
+  height: 300px;
+}
+
+#col9{
+  grid-area: col9;
+  background-color: LightGoldenrodYellow;
+  padding: 3%;
+  margin-right: 3%;
+  font-family: 'Teko', sans-serif;
+  text-align: center;
+  border: solid black 3px;
+  height: 265px;
+}
+
+#thanks{
+  background-color: black;
   width: 100%;
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 25px;
+}
+
+#thankstext{
+  color: white;
+}
+
+#title{
+  font-family: 'Amatic SC', cursive;
+  margin: 0 auto;
+}
+
+#titlee{
+  margin: 0 auto;
+}
+
+.parhead{
+  font-family: 'Amatic SC', cursive;
 }
