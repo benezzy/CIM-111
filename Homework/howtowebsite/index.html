@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>How To Order A Pizza</title>
+
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+
+    header{
+      background-color: white;
+      width: 100%;
+      height: 250px;
+      margin: 0 auto;
+      text-align: center;
+      margin-top: -40px;
+    }
+
+    main{
+      background-color: white;
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+      margin-top: -40px;
+    }
+
+    footer{
+      background-color: white;
+      width: 100%;
+      height: 50px;
+      margin: 0 auto;
+      margin-top: -10px;
+    }
+
+    nav{
+      background-color: darkred;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    nav ul li{
+      list-style: none;
+      display: inline-block;
+      margin: 0 auto;
+      margin-right: 50px;
+      text-decoration: none;
+      font-family: 'Gloria Hallelujah', cursive;
+      color: white;
+      font-size: 20px;
+    }
+
+    nav ul li a:hover{
+      color: LightGoldenrodYellow;
+      text-decoration: underline;
+    }
+
+    .box{
+      width: 100%;
+      height: auto;
+      background-color: wheat;
+      margin: 0 auto;
+      vertical-align: top;
+    }
+
+    #thanks{
+      background-color: darkred;
+      width: 100%;
+      font-family: 'Gloria Hallelujah', cursive;
+      text-align: center;
+      display: inline-block;
+      vertical-align: top;
+      margin-top: 25px;
+    }
+
+    #thankstext{
+      color: white;
+    }
+
+    #title{
+      font-family: 'Gloria Hallelujah', cursive;
+      margin: 0 auto;
+      font-size: 50px;
+    }
+
+    .parhead{
+      font-family: 'Gloria Hallelujah', cursive;
+    }
+
+    #recepticle{
+      font-family: 'Gloria Hallelujah', cursive;
+      font-size: 50px;
+      text-align: center;
+    }
+    </style>
+
+  </head>
+
+  <body>
+
+    <header>
+      <br><br>
+        <div id="titlee">
+      <h1 id="title">How To Order Pizza</h1>
+        </div>
+      <nav>
+        <ul>
+          <li id="toggle1">Step 1</li>
+          <li id="toggle2">Step 2</li>
+          <li id="toggle3">Step 3</li>
+          <li id="toggle4">Step 4</li>
+          <li id="toggle5">Step 5</li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <main>
+
+      <br>
+
+      <div id="recepticle"></div>
+
+      <img class="box" id="img5" src="images/step5.jpg"></img>
+      <img class="box" id="img4" src="images/step4.jpg"></img>
+      <img class="box" id="img3" src="images/step3.jpg"></img>
+      <img class="box" id="img2" src="images/step2.jpg"></img>
+      <img class="box" id="img1" src="images/step1.jpg"></img>
+
+      <br>
+
+    </main>
+
+    <footer>
+      <br>
+      <div id="thanks">
+        <p id="thankstext">Enjoy your pizza!!!<p>
+      </div>
+      <br><br>
+
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+          $(".box").hide();
+          $("h1").css("color", "darkgreen");
+            $("#title").mouseenter(function(){
+              $("#recepticle").html("Click the tabs above for instructions!!");
+              $("#title").css("background-color", "wheat");
+            });
+            $("#title").mouseleave(function(){
+              $("#recepticle").html("");
+              $("#title").css("background-color", "transparent");
+            });
+            $("#toggle1").click(function(){
+              $("#img1").toggle(1000);
+            });
+            $("#toggle2").click(function(){
+              $("#img2").toggle(1000);
+            });
+            $("#toggle3").click(function(){
+              $("#img3").toggle(1000);
+            });
+            $("#toggle4").click(function(){
+              $("#img4").toggle(1000);
+            });
+            $("#toggle5").click(function(){
+              $("#img5").toggle(1000);
+            });
+        });//end of document ready
+    </script>
+
+  </body>
+
+
+</html>
