@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Vacation Folder</title>
+<style>
+body {
+	color: #222;
+	font: 12px/20px Helvetica, Arial, sans-serif;
+}
+p,
+ul {
+	margin: 0;
+	padding: 0;
+}
+p {
+	margin-bottom: 20px;
+}
+.nav {
+	left: 20px;
+	list-style: none;
+	position: fixed;
+	top: 20px;
+}
+#nav-2 {
+	left: auto;
+	right: 20px;
+}
+.nav li {
+	margin-bottom: 2px;
+}
+.nav a {
+	background: #ededed;
+	color: #666;
+	display: block;
+	font-size: 11px;
+	padding: 5px 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.nav a:hover {
+	background: #dedede;
+}
+.nav .current a {
+	background: #666;
+	color: #ededed;
+}
+.current {
+	background: red;
+}
+#container {
+	margin: 0 auto;
+	width: 800px;
+}
+.section {
+	border-bottom: 5px solid #ccc;
+	padding: 20px;
+}
+.section p:last-child {
+	margin-bottom: 0;
+}
+#titlee{
+	font-size: 50px;
+}
+.imageCenter{
+	text-align: center;
+	width: 400px;
+	margin: 0 auto;
+}
+#bottomPic{
+	text-align: center;
+	width: 500px;
+	margin: 0 auto;
+}
+</style>
+</head>
+
+<body>
+<ul id="nav" class="nav">
+	<li class="current"><a href="#section-1">Intro</a></li>
+	<li><a href="#section-2">Landmarks</a></li>
+	<li><a href="#section-3">Sightseeing</a></li>
+	<li><a href="#section-4">Restaurants</a></li>
+	<li><a href="#section-5">Visit</a></li>
+</ul>
+
+<div id="container">
+	<div class="section" id="section-1">
+		<h1 id="titlee">Caribou, Maine</h1>
+		<p>Located about 20 minutes away from Canada in the top right corner of the United States, this small town is the perfect place to escape to. No matter the season, you will experience breathtaking views, unparalleled outdoor activities, and a community unlike any other. Hiking, skiing, snowmobiling, water sports, fun and games and MORE eagerly await your arrival.</p>
+		<br>
+		<div class="imageCenter"><img src="images/sign.jpg" width="400px"></div><br>
+	</div>
+
+	<div class="section" id="section-2">
+		<h2>Landmarks</h2>
+		<p>There are lots of things to see in Caribou and in Northern Maine. Spend an afternoon at the lake and enjoy breathtaking views and fun in the sun. Visit the Nylander Museum or the Historical Society for a taste of local history. Visit the hiking trails at the Nordic Heritage Center, and go hiking or skiing depending on the time of year. Have a blast at Thursday's On Sweden and get in the community spirit.</p>
+		<br>
+		<div class="imageCenter"><img src="images/tubing.jpg" width="400px"><img src="images/rainbow.jpg" width="400px"></div><br>
+	</div>
+
+	<div class="section" id="section-3">
+		<h2>Sightseeing</h2>
+		<p>In terms of other sightseeing opportunities, there are many. Depending on the season, you can enjoy beautiful colors, snow, or lush greens and breathtaking views. Climb Haystack Mountain and enjoy the panorama of beauty. Go snowshoeing, biking, hiking, or enjoy outdoor sports activities like dirt biking. Take a walk downtown and enjoy a few small shops and a bite to eat. Check out a basketball game at Caribou High School. But take advantage of spending your time in the fresh air.</p>
+		<br>
+		<div class="imageCenter"><img src="images/fall.jpg" width="400px"><img src="images/snow.jpg" width="400px"><img src="images/haystack.jpg" width="400px"></div><br>
+	</div>
+
+	<div class="section" id="section-4">
+		<h2>Restaurants</h2>
+		<p>It may seem like the middle of nowhere, but there are a WIDE variety of unique and delicious restaurants and eateries in the Caribou area. Grab lobster from Sleeper's, burgers from Burger Boy, fresh pizza from Frederick's or The Warehouse, or sandwiches and desserts from Cindy's Sub Shop. For something a little more fancy, head to Café Sopreso, Canterbury Royale, Lakeview, or plenty of nearby restaurants across the border in Canada.</p>
+		<br>
+		<div class="imageCenter"><img src="images/lobster.jpg" width="400px"><img src="images/lamb.jpg" width="400px"></div><br>
+	</div>
+
+	<div class="section" id="section-5">
+		<h2>Visit</h2>
+		<p>Come check it out!! There is an airport twenty minutes away, so you can easily fly here. Come for whichever season you want and be prepared for an adventure!!</p>
+		<br>
+		<div id="bottomPic"><img src="images/lakeview.jpg" width="600px"></div><br>
+	</div>
+
+	<br><br><br>
+
+<script src="jquery.js"></script>
+<script src="jquery.nav.js"></script>
+<script>
+$(document).ready(function() {
+	var $nav = $('#nav');
+	var $nav2 = $('#nav-2');
+
+	$nav.onePageNav();
+
+	$nav2.on('click', 'a', function(e) {
+		var currentPos = $(this).parent().prevAll().length;
+
+		$nav.find('li').eq(currentPos).children('a').trigger('click');
+
+		e.preventDefault();
+	});
+});
+</script>
+</body>
+</html>
