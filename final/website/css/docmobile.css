@@ -1,0 +1,14 @@
+@import "docdesktop.css";
+
+#info{
+  width: 93%;
+  display: block;
+  margin-right: 0px;
+  margin-top: 5px;
+}
+
+#video{
+  width: 100%;
+  display: block;
+  margin-left: 0px;
+}
