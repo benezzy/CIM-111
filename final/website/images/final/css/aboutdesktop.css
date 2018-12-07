@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 @import url('https://fonts.googleapis.com/css?family=Teko');
 
 header{
@@ -30,7 +30,6 @@ nav{
   background-color: black;
   width: 100%;
   margin: 0 auto;
-  margin-top: -10px;
 }
 
 nav ul{
@@ -46,7 +45,7 @@ nav ul li{
 
 nav ul li a{
   text-decoration: none;
-  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Amatic SC', cursive;
   color: white;
   font-size: 20px;
 }
@@ -56,10 +55,41 @@ nav ul li a:hover{
   text-decoration: underline;
 }
 
+#container1{
+  width: 100%;
+  height: auto;
+  background-color: white;
+  margin: 0 auto;
+  vertical-align: top;
+}
+
+#info{
+  background-color: LightGoldenrodYellow;
+  width: 35%;
+  padding: 3%;
+  font-family: 'Teko', sans-serif;
+  text-align: center;
+  border: solid black 3px;
+  display: inline-block;
+  margin: 0 auto;
+  margin-right: 6%;
+  vertical-align: top;
+  float: right;
+}
+#picture{
+  background-color: white;
+  width: 40%;
+  display: inline-block;
+  margin: 0 auto;
+  margin-left: 6%;
+  vertical-align: top;
+  float: left;
+}
+
 #thanks{
   background-color: black;
   width: 100%;
-  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Amatic SC', cursive;
   text-align: center;
   display: inline-block;
   vertical-align: top;
@@ -71,7 +101,7 @@ nav ul li a:hover{
 }
 
 #title{
-  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Amatic SC', cursive;
   margin: 0 auto;
   font-size: 100px;
 }
@@ -81,16 +111,9 @@ nav ul li a:hover{
 }
 
 .parhead{
-  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Amatic SC', cursive;
 }
 
-#picture{
-  width: 80%;
-  margin: 0 auto;
-  text-align: center;
-}
-
-#info{
-  margin-left: 5%;
-  margin-right: 5%;
+#picsize{
+  width: 100%;
 }

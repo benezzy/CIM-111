@@ -118,3 +118,77 @@ nav ul li a:hover{
 .parhead{
   font-family: 'Alfa Slab One', cursive;
 }
+
+#clickHere{
+  font-size: 30px;
+  margin: 0 auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+#toggle1{
+  font-size: 25px;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+#toggle1:hover{
+  color: blue;
+  text-decoration: underline;
+}
+
+#toggle2{
+  font-size: 25px;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+#toggle2:hover{
+  color: blue;
+  text-decoration: underline;
+}
+
+#toggle3{
+  font-size: 25px;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+#toggle3:hover{
+  color: blue;
+  text-decoration: underline;
+}
+
+.box{
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  margin-left: 3%;
+  vertical-align: top;
+}
+
+#img1{
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  margin-left: 3%;
+}
+
+#img2{
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  margin-left: 3%;
+}
+
+#img3{
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  margin-left: 3%;
+}

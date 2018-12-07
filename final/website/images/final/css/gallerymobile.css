@@ -1,0 +1,51 @@
+@import "gallerydesktop.css";
+
+#grid1{
+  display: grid;
+  grid-template-areas: "col1" "col2" "col3";
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 100%;
+  margin: 0 auto;
+}
+
+#grid2{
+  display: grid;
+  grid-template-areas: "col4" "col5" "col6";
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 100%;
+  margin: 0 auto;
+}
+
+#grid3{
+  display: grid;
+  grid-template-areas: "col7" "col8" "col9";
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 100%;
+  margin: 0 auto;
+}
+
+
+#containergrid{
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+#col3{
+
+}
+
+#col4{
+
+}
+
+#col9{
+  margin-bottom: -400px;
+}
+
+.picheight{
+  width: 100%;
+  height: auto;
+  /* height: 100px; */
+  display: block;
+}

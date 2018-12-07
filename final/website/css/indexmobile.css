@@ -1,14 +1,16 @@
-@import "docdesktop.css";
+@import "indexdesktop.css";
 
-#info{
-  width: 93%;
-  display: block;
-  margin-right: 0px;
-  margin-top: 5px;
+header{
+  height: 315px;
+  margin-bottom: 10px;
 }
 
-#video{
-  width: 100%;
+nav ul li{
   display: block;
-  margin-left: 0px;
+}
+
+#title{
+  font-family: 'Alfa Slab One', cursive;
+  margin: 0 auto;
+  font-size: 70px;
 }

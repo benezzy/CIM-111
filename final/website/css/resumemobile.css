@@ -12,3 +12,18 @@
   display: block;
   margin-left: 0px;
 }
+
+header{
+  height: 315px;
+  margin-bottom: 10px;
+}
+
+nav ul li{
+  display: block;
+}
+
+#title{
+  font-family: 'Alfa Slab One', cursive;
+  margin: 0 auto;
+  font-size: 70px;
+}

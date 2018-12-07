@@ -11,9 +11,9 @@
     <meta name="author" content="Ben Ezzy">
     <meta name="description" content="This website is for my CIM 111 final, and it is a personal website that features information about my experience, including content that I have produced.">
 
-    <link rel="stylesheet" href="css/resumedesktop.css" media="only screen and (min-width: 700px)">
+    <link rel="stylesheet" href="css/resumedesktop.css" media="only screen and (min-width: 740px)">
 
-    <link rel="stylesheet" href="css/resumemobile.css" media="only screen and (max-width: 700px)">
+    <link rel="stylesheet" href="css/resumemobile.css" media="only screen and (max-width: 740px)">
 
     <style>
 
@@ -35,7 +35,7 @@
           <li><a href="resume.html">Resume</a></li>
           <li><a href="stories.html">Stories</a></li>
           <li><a href="articles.html">Articles</a></li>
-          <li><a href="documentary.html">Doc</a></li>
+          <li><a href="documentary.html">Footprints</a></li>
         </ul>
       </nav>
 
@@ -43,9 +43,19 @@
 
     <main>
 
-      <br><br><br>
-        <h1>COMING SOON!!!</h1>
-      <br><br><br>
+      <br>
+      <div id=clickHere>
+        Click each section to view more information:
+      </div>
+
+        <p id="toggle1">Work Experience</p>
+          <img class="box" id="img1" src="images/work.jpg"></img>
+        <p id="toggle2">Skills</p>
+          <img class="box" id="img2" src="images/skills.jpg"></img>
+        <p id="toggle3">Education</p>
+          <img class="box" id="img3" src="images/education.jpg"></img>
+
+      <br>
 
     </main>
 
@@ -57,6 +67,34 @@
       <br><br>
 
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        $(".box").hide();
+            $("#toggle1").click(function(){
+              $("#img1").toggle(1000);
+            });
+            $("#toggle2").click(function(){
+              $("#img2").toggle(1000);
+            });
+            $("#toggle3").click(function(){
+              $("#img3").toggle(1000);
+            });
+        });//end of document ready
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130640838-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-130640838-1');
+    </script>
+
 
   </body>
 

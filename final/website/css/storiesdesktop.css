@@ -105,6 +105,11 @@ nav ul li a:hover{
   color: white;
 }
 
+#info{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 #title{
   font-family: 'Alfa Slab One', cursive;
   margin: 0 auto;

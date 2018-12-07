@@ -118,3 +118,68 @@ nav ul li a:hover{
 .parhead{
   font-family: 'Alfa Slab One', cursive;
 }
+
+#links{
+  font-size: 27px;
+  margin: 0 auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
+
+#link1{
+  text-decoration: none;
+  font-family: 'Alfa Slab One', cursive;
+  color: black;
+  font-size: 20px;
+}
+
+#link1:hover{
+  color: blue;
+  text-decoration: underline;
+}
+
+#link2{
+  text-decoration: none;
+  font-family: 'Alfa Slab One', cursive;
+  color: black;
+  font-size: 20px;
+}
+
+#link2:hover{
+  color: blue;
+  text-decoration: underline;
+}
+
+#link3{
+  text-decoration: none;
+  font-family: 'Alfa Slab One', cursive;
+  color: black;
+  font-size: 20px;
+}
+
+#link3:hover{
+  color: blue;
+  text-decoration: underline;
+}
+
+#link4{
+  text-decoration: none;
+  font-family: 'Alfa Slab One', cursive;
+  color: black;
+  font-size: 20px;
+}
+
+#link4:hover{
+  color: blue;
+  text-decoration: underline;
+}
+
+#info{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.parhead{
+  font-family: 'Alfa Slab One', cursive;
+}
